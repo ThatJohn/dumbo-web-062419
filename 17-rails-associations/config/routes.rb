@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :quests
   resources :unicorns
   # get "/unicorns", to: "unicorns#index", as: "unicorns"
   # get "/unicorns/:id", to: "unicorns#show", as: "unicorn"
@@ -10,5 +11,7 @@ Rails.application.routes.draw do
   # patch/put "/unicorns/:id", to: "unicorns#update"
 
   # delete "/unicorns/:id", to: "unicorns#destroy"
+  #
+  resources :leprechauns
 
 end

@@ -1,0 +1,10 @@
+<h1>Viewing info for <%= @leprechaun.name %></h1>
+
+<p><%= link_to "Back to sighting list", leprechauns_path	 %></p>
+
+<p>Name: <%= @leprechaun.name %></p>
+<p>Gold: <%= @leprechaun.gold_count %></p>
+<p>Height: <%= @leprechaun.height %></p>
+
+<%= link_to "Edit", edit_leprechaun_path(@leprechaun) %>
+<%= button_to "Delete", leprechaun_path(@leprechaun), method: :delete %>

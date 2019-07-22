@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  leprechaun_id: one
+  unicorn: one
+
+two:
+  name: MyString
+  leprechaun_id: two
+  unicorn: two

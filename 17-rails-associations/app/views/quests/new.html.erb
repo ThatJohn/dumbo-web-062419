@@ -1,0 +1,14 @@
+<h1>Log a new quest</h1>
+
+<%= form_for @quest do |q| %>
+  <%= q.label :name %>
+  <%= q.input :name %>
+
+  <%= q.label :unicorn_id %>
+  <%= q.input :unicorn_id %>
+########### CHECK collection_select ################ :unicorn_id, Unicorn.all, :id, :name
+  <%= q.label :eprechaun_id %>
+  <%= q.input :leprechaun.id %>
+
+  <%= q.submit %>
+<% end %>
